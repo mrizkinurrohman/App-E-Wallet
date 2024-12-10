@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 710px;
+  height: 1024px;
+  background: rgba(255, 255, 255, 1);
+  padding: 10px;
+  border-radius: 0px 40px 40px 0px;
+  /* border: 1px solid black; */
+  position: relative;
+}
+
+.kiri {
+  width: 562px;
+  height: 554px;
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 80px;
+  left: 60px;
+}
+
+.wallet {
+  width: 562px;
+  height: 32px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.wallet img {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+}
+
+.wallet p {
+  width: 82px;
+  height: 27px;
+  position: absolute;
+  left: 50px;
+  top: 6px;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.28px;
+  color: rgba(41, 72, 255, 1);
+}
+
+.hello {
+  width: 562px;
+  height: 554px;
+}
+
+.hello p {
+  width: 562px;
+  height: 37px;
+  font-family: Montserrat;
+  font-weight: 500px;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: rgba(11, 19, 42, 1);
+}
+
+.fill {
+  position: relative;
+  width: 562px;
+  height: 27px;
+}
+
+.fill p {
+  position: absolute;
+  top: -500px;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 26.62px;
+  color: rgba(79, 86, 101, 1);
+}
+
+.icon {
+  width: 562px;
+  height: 51px;
+  border-radius: 100px;
+  border: 1px solid rgba(232, 232, 232, 1);
+  padding: 10px;
+  position: absolute;
+  top: 150px;
+}
+
+.icon:hover {
+  background-color: rgba(57, 106, 252, 1);
+  color: white;
+}
+
+.i-google button {
+  width: 231px;
+  height: 24px;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+}
+
+.i-google img {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 10px;
+  left: 160px;
+}
+
+.i-google p:hover {
+  color: white;
+}
+
+.i-google p {
+  width: 185px;
+  height: 22px;
+  position: absolute;
+  font-family: Montserrat;
+  font-weight: 500px;
+  font-size: 18px;
+  line-height: 21.94px;
+  top: 12px;
+  left: 200px;
+}
+
+.icon-dua {
+  width: 562px;
+  height: 51px;
+  border-radius: 100px;
+  border: 1px solid rgba(232, 232, 232, 1);
+  padding: 10px;
+  position: absolute;
+  top: 220px;
+}
+
+.icon-dua:hover {
+  background-color: rgba(57, 106, 252, 1);
+}
+
+.i-facebook button {
+  width: 255px;
+  height: 24px;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+}
+
+.i-facebook img {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 10px;
+  left: 160px;
+}
+
+.i-facebook img:hover {
+  color: white;
+}
+
+.i-facebook p {
+  width: 209px;
+  height: 22px;
+  position: absolute;
+  font-family: Montserrat;
+  font-weight: 500px;
+  font-size: 18px;
+  line-height: 21.94px;
+  top: 12px;
+  left: 200px;
+}
+
+.i-facebook p:hover {
+  color: white;
+}
+
+.line {
+  width: 562px;
+  height: 15px;
+  position: relative;
+}
+
+.or {
+  width: 15px;
+  height: 15px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.63px;
+  color: rgba(170, 170, 170, 1);
+  position: absolute;
+  top: -347px;
+  left: 270px;
+}
+
+.line1 {
+  position: absolute;
+  top: -340px;
+  width: 224.8px;
+  border: 0.5px solid rgba(222, 222, 222, 1);
+}
+
+.line2 {
+  position: absolute;
+  left: 335px;
+  top: -340px;
+  width: 224.8px;
+  border: 0.5px solid rgba(222, 222, 222, 1);
+}
+
+.form-input {
+  width: 562px;
+  height: 77px;
+}
+
+.form-input .email {
+  width: 562px;
+  height: 20px;
+  font-family: Montserrat;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: rgba(11, 19, 42, 1);
+  position: absolute;
+  top: 310px;
+}
+
+.form-input .input-email {
+  position: absolute;
+  top: 337px;
+  width: 562px;
+  height: 44px;
+  border: 1px solid rgba(222, 222, 222, 1);
+  border-radius: 8px;
+  padding: 14px 13px 14px 13px;
+  background: rgba(252, 253, 254, 1);
+}
+
+.input-email img {
+  width: 16px;
+  height: 12px;
+  color: rgba(79, 86, 101, 1);
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+.input-email input {
+  position: absolute;
+  left: 50px;
+  width: 490px;
+  height: 15px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400px;
+  line-height: 14.63px;
+  color: rgba(79, 86, 101, 1);
+  border: none;
+}
+
+.form-input .password {
+  width: 562px;
+  height: 20px;
+  font-family: Montserrat;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: rgba(11, 19, 42, 1);
+  position: absolute;
+  top: 395px;
+}
+
+.form-input .input-password {
+  position: absolute;
+  top: 420px;
+  width: 562px;
+  height: 44px;
+  border: 1px solid rgba(222, 222, 222, 1);
+  border-radius: 8px;
+  padding: 14px 13px 14px 13px;
+  background: rgba(252, 253, 254, 1);
+}
+
+.input-password img {
+  width: 16px;
+  height: 16px;
+  color: rgba(79, 86, 101, 1);
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+.input-password input {
+  position: absolute;
+  left: 50px;
+  width: 490px;
+  height: 15px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400px;
+  line-height: 14.63px;
+  color: rgba(79, 86, 101, 1);
+  border: none;
+}
+
+.btn-login {
+  position: absolute;
+  top: 470px;
+  margin-top: 10px;
+  width: 562px;
+  height: 50px;
+  border-radius: 6px;
+  padding: 10px;
+  background: rgba(41, 72, 255, 1);
+  border: none;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.not {
+  position: absolute;
+  top: 540px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500px;
+  line-height: 15px;
+  color: rgba(11, 19, 42, 1);
+  left: 150px;
+}
+
+.container-dua {
+  box-sizing: border-box;
+  width: 60%;
+  height: 1024px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: -1;
+  background: rgba(57, 106, 252, 1);
+  /* border: 1px solid black; */
+}
+
+.container-dua img {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}

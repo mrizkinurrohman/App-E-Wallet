@@ -1,0 +1,819 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-header {
+  width: 100%;
+  height: 76px;
+  border-bottom: 1px solid rgba(232, 232, 232, 1);
+  padding: 50px;
+  background: rgba(255, 255, 255, 1);
+  position: relative;
+  /* border: 5px solid orange; */
+}
+
+.wallet {
+  width: 355px;
+  height: 32px;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+}
+
+.wallet img {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.wallet p {
+  position: absolute;
+  top: 5px;
+  left: 60px;
+  width: 82px;
+  height: 27px;
+  font-family: Nunito Sans;
+  font-weight: 600px;
+  font-size: 20px;
+  line-height: 27.28px;
+  color: rgba(41, 72, 255, 1);
+}
+
+.profil {
+  width: 423px;
+  height: 48px;
+  position: absolute;
+  top: 20%;
+}
+
+.profil p {
+  position: absolute;
+  top: 50%;
+  left: 1100px;
+  width: 180px;
+  height: 24px;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(79, 86, 101, 1);
+}
+
+.profil img {
+  position: absolute;
+  top: 22%;
+  left: 1250px;
+  width: 48px;
+  height: 48px;
+}
+
+.profil .down {
+  position: absolute;
+  top: 50%;
+  left: 1330px;
+  width: 24px;
+  height: 24px;
+}
+
+.container-sidebar {
+  width: 262px;
+  height: 948px;
+  border-right: 1px solid rgba(232, 232, 232, 1);
+  position: relative;
+}
+
+.colomns {
+  width: 208px;
+  height: 350px;
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 18%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  font-family: Montserrat;
+}
+
+.colomns .dashboard {
+  width: 208px;
+  height: 45px;
+  /* border: 1px solid black; */
+  padding: 4px 12px 4px 8px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dashboard img {
+  position: absolute;
+  top: 25%;
+  left: 10px;
+  width: 24px;
+  height: 24px;
+}
+
+.dashboard p {
+  position: absolute;
+  top: 25%;
+  left: 50px;
+  width: 156px;
+  height: 24px;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(79, 86, 101, 1);
+}
+
+.colomns .tf {
+  width: 208px;
+  height: 45px;
+  border-radius: 6px;
+  background: rgba(41, 72, 255, 1);
+  /* border: 1px solid black; */
+  padding: 4px 12px 4px 8px;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tf img {
+  position: absolute;
+  top: 25%;
+  left: 10px;
+  width: 24px;
+  height: 24px;
+}
+
+.tf p {
+  position: absolute;
+  top: 25%;
+  left: 50px;
+  width: 156px;
+  height: 24px;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.colomns .history {
+  width: 208px;
+  height: 45px;
+  /* border: 1px solid black; */
+  padding: 4px 12px 4px 8px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.history img {
+  position: absolute;
+  top: 25%;
+  left: 10px;
+  width: 24px;
+  height: 24px;
+}
+
+.history p {
+  position: absolute;
+  top: 25%;
+  left: 50px;
+  width: 156px;
+  height: 24px;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(79, 86, 101, 1);
+}
+
+.colomns .topup {
+  width: 208px;
+  height: 45px;
+  /* border: 1px solid black; */
+  padding: 4px 12px 4px 8px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topup img {
+  position: absolute;
+  top: 25%;
+  left: 10px;
+  width: 24px;
+  height: 24px;
+}
+
+.topup p {
+  position: absolute;
+  top: 25%;
+  left: 50px;
+  width: 156px;
+  height: 24px;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(79, 86, 101, 1);
+}
+
+.colomns .profile {
+  width: 208px;
+  height: 45px;
+  /* border: 1px solid black; */
+  padding: 4px 12px 4px 8px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.profile img {
+  position: absolute;
+  top: 25%;
+  left: 10px;
+  width: 24px;
+  height: 24px;
+}
+
+.profile p {
+  position: absolute;
+  top: 25%;
+  left: 50px;
+  width: 156px;
+  height: 24px;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(79, 86, 101, 1);
+}
+
+.colomns .out {
+  width: 208px;
+  height: 45px;
+  /* border: 1px solid black; */
+  padding: 4px 12px 4px 8px;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.out img {
+  position: absolute;
+  top: 25%;
+  left: 10px;
+  width: 24px;
+  height: 24px;
+}
+
+.out p {
+  position: absolute;
+  top: 25%;
+  left: 50px;
+  width: 156px;
+  height: 24px;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(208, 0, 0, 1);
+}
+
+.judul {
+  font-family: Montserrat;
+  position: absolute;
+  top: 120px;
+  left: 320px;
+  width: 983px;
+  height: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19.5px;
+}
+
+.judul img {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 40%;
+  left: -3%;
+  transform: translate(-50%, -50%);
+}
+
+.container-main1 {
+  position: absolute;
+  top: 585px;
+  left: 700px;
+  transform: translate(-50%, -50%);
+  width: 770px;
+  height: 850px;
+  border: 1px solid rgba(232, 232, 232, 1);
+}
+
+.main1 p {
+  position: absolute;
+  top: 30px;
+  left: 160px;
+  transform: translate(-50%, -50%);
+  width: 277px;
+  height: 28px;
+  font-weight: 600px;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(11, 19, 42, 1);
+  font-family: Montserrat;
+}
+
+.main1-profil {
+  position: absolute;
+  top: 110px;
+  left: 367px;
+  transform: translate(-50%, -50%);
+  width: 693px;
+  height: 115px;
+  background: rgba(232, 232, 232, 0.3);
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+.main1-profil img {
+  width: 80px;
+  height: 80px;
+}
+
+.tulisan {
+  width: 113px;
+  height: 80px;
+}
+
+.tulisan .name {
+  width: 113px;
+  height: 80px;
+  font-family: Montserrat;
+  font-weight: 600px;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(11, 19, 42, 1);
+  position: absolute;
+  top: 50px;
+  left: 180px;
+  transform: translate(-50%, -50%);
+}
+
+.tulisan .phone {
+  width: 113px;
+  height: 80px;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-size: 12px;
+  line-height: 24px;
+  color: rgba(79, 86, 101, 1);
+  position: absolute;
+  top: 75px;
+  left: 180px;
+  transform: translate(-50%, -50%);
+}
+
+.tulisan p.verified {
+  position: absolute;
+  top: 75px;
+  left: 170px;
+  transform: translate(-50%, -50%);
+  width: 97px;
+  height: 27px;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-size: 12px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 1);
+  background: rgba(41, 72, 255, 1);
+  border-radius: 6px;
+  padding: 2px 12px 4px 8px;
+  text-align: end;
+}
+
+.tulisan p.verified img {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  transform: translate(-50%, -50%);
+}
+
+.main1-profil p.amount {
+  width: 197px;
+  height: 28px;
+  font-family: Montserrat;
+  font-weight: 600px;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(11, 19, 42, 1);
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  transform: translate(-50%, -50%);
+}
+
+.main1-profil p.type {
+  width: 438px;
+  height: 17px;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: rgba(79, 86, 101, 1);
+  position: absolute;
+  top: 180px;
+  left: 220px;
+  transform: translate(-50%, -50%);
+}
+
+.main1-profil .nominal {
+  position: absolute;
+  top: 250px;
+  left: 347px;
+  transform: translate(-50%, -50%);
+  width: 693px;
+  height: 62px;
+  border-radius: 6px;
+  border: 1px solid rgba(232, 232, 232, 1);
+}
+
+.nominal img {
+  position: absolute;
+  top: 32px;
+  left: 30px;
+  transform: translate(-50%, -50%);
+  width: 14.67px;
+  height: 9.33px;
+}
+
+.nominal .nominal1 {
+  width: 600px;
+  height: 27px;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(11, 19, 42, 1);
+  position: absolute;
+  top: 33px;
+  left: 365px;
+  transform: translate(-50%, -50%);
+  border: none;
+}
+
+.main1-profil p.payment {
+  width: 192px;
+  height: 28px;
+  font-family: Montserrat;
+  font-weight: 600px;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(11, 19, 42, 1);
+  position: absolute;
+  top: 320px;
+  left: 100px;
+  transform: translate(-50%, -50%);
+}
+
+.main1-profil p.choose {
+  width: 434px;
+  height: 17px;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: rgba(79, 86, 101, 1);
+  position: absolute;
+  top: 350px;
+  left: 220px;
+}
+
+.main1-profil .bankbri {
+  position: relative;
+  top: 250px;
+  left: 327px;
+  transform: translate(-50%, -50%);
+  width: 693px;
+  height: 62px;
+  border-radius: 6px;
+  border: 1px solid rgba(232, 232, 232, 1);
+  list-style: none;
+}
+
+.bankbri li.bri {
+  width: 600px;
+  height: 27px;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(11, 19, 42, 1);
+  position: absolute;
+  top: 33px;
+  left: 315px;
+  transform: translate(-50%, -50%);
+  list-style: none;
+}
+
+.bankbri img.bri {
+  position: absolute;
+  top: 12px;
+  left: 70px;
+  transform: translate(-50%, -50%);
+  width: 38px;
+  height: 32px;
+}
+
+.bankbri p.bri {
+  width: 600px;
+  height: 27px;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(11, 19, 42, 1);
+  position: absolute;
+  top: 12px;
+  left: 430px;
+  transform: translate(-50%, -50%);
+}
+
+.main1-profil .bankdana {
+  position: relative;
+  top: 270px;
+  left: 327px;
+  transform: translate(-50%, -50%);
+  width: 693px;
+  height: 62px;
+  border-radius: 6px;
+  border: 1px solid rgba(232, 232, 232, 1);
+  list-style: none;
+}
+
+.bankdana li.dana {
+  width: 600px;
+  height: 27px;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(11, 19, 42, 1);
+  position: absolute;
+  top: 33px;
+  left: 315px;
+  transform: translate(-50%, -50%);
+  list-style: none;
+}
+
+.bankdana img.dana {
+  position: absolute;
+  top: 12px;
+  left: 70px;
+  transform: translate(-50%, -50%);
+  width: 38px;
+  height: 11.23px;
+}
+
+.bankdana p.dana {
+  width: 600px;
+  height: 27px;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(11, 19, 42, 1);
+  position: absolute;
+  top: 12px;
+  left: 430px;
+  transform: translate(-50%, -50%);
+}
+
+.main1-profil .bankbca {
+  position: relative;
+  top: 290px;
+  left: 327px;
+  transform: translate(-50%, -50%);
+  width: 693px;
+  height: 62px;
+  border-radius: 6px;
+  border: 1px solid rgba(232, 232, 232, 1);
+  list-style: none;
+}
+
+.bankbca li.bca {
+  width: 600px;
+  height: 27px;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(11, 19, 42, 1);
+  position: absolute;
+  top: 33px;
+  left: 315px;
+  transform: translate(-50%, -50%);
+  list-style: none;
+}
+
+.bankbca img.bca {
+  position: absolute;
+  top: 12px;
+  left: 70px;
+  transform: translate(-50%, -50%);
+  width: 38px;
+  height: 11.23px;
+}
+
+.bankbca p.bca {
+  width: 600px;
+  height: 27px;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(11, 19, 42, 1);
+  position: absolute;
+  top: 12px;
+  left: 430px;
+  transform: translate(-50%, -50%);
+}
+
+.main1-profil .bankgopay {
+  position: relative;
+  top: 310px;
+  left: 327px;
+  transform: translate(-50%, -50%);
+  width: 693px;
+  height: 62px;
+  border-radius: 6px;
+  border: 1px solid rgba(232, 232, 232, 1);
+  list-style: none;
+}
+
+.bankgopay li.gopay {
+  width: 600px;
+  height: 27px;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(11, 19, 42, 1);
+  position: absolute;
+  top: 33px;
+  left: 315px;
+  transform: translate(-50%, -50%);
+  list-style: none;
+}
+
+.bankgopay img.gopay {
+  position: absolute;
+  top: 12px;
+  left: 70px;
+  transform: translate(-50%, -50%);
+  width: 38px;
+  height: 11.23px;
+}
+
+.bankgopay p.gopay {
+  width: 600px;
+  height: 27px;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(11, 19, 42, 1);
+  position: absolute;
+  top: 12px;
+  left: 430px;
+  transform: translate(-50%, -50%);
+}
+
+.main1-profil .bankovo {
+  position: relative;
+  top: 330px;
+  left: 327px;
+  transform: translate(-50%, -50%);
+  width: 693px;
+  height: 62px;
+  border-radius: 6px;
+  border: 1px solid rgba(232, 232, 232, 1);
+  list-style: none;
+}
+
+.bankovo li.ovo {
+  width: 600px;
+  height: 27px;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(11, 19, 42, 1);
+  position: absolute;
+  top: 33px;
+  left: 315px;
+  transform: translate(-50%, -50%);
+  list-style: none;
+}
+
+.bankovo img.ovo {
+  position: absolute;
+  top: 12px;
+  left: 70px;
+  transform: translate(-50%, -50%);
+  width: 38px;
+  height: 11.23px;
+}
+
+.bankovo p.ovo {
+  width: 600px;
+  height: 27px;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(11, 19, 42, 1);
+  position: absolute;
+  top: 12px;
+  left: 430px;
+  transform: translate(-50%, -50%);
+}
+
+.container-main2 {
+  width: 341px;
+  height: 378px;
+  border: 1px solid rgba(232, 232, 232, 1);
+  position: absolute;
+  top: 349px;
+  left: 1300px;
+  transform: translate(-50%, -50%);
+}
+
+.container-main2 p.payment1 {
+  position: absolute;
+  top: 30px;
+  left: 170px;
+  transform: translate(-50%, -50%);
+  width: 296px;
+  height: 34px;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.main2 {
+  width: 296px;
+  height: 285px;
+  padding: 10px;
+  position: absolute;
+  /* border: 1px solid rgba(232, 232, 232, 1); */
+  top: 190px;
+  left: 170px;
+  transform: translate(-50%, -50%);
+}
+
+.main2 .diskon {
+  position: absolute;
+  top: 300px;
+  left: 150px;
+  transform: translate(-50%, -50%);
+  width: 296px;
+  height: 34px;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: rgba(79, 86, 101, 1);
+}
+
+.main2 button.btn-submit {
+  position: absolute;
+  top: 250px;
+  left: 149px;
+  transform: translate(-50%, -50%);
+  width: 296px;
+  height: 36px;
+  background: rgba(41, 72, 255, 1);
+  border-radius: 6px;
+  font-family: Montserrat;
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(255, 255, 255, 1);
+  border: none;
+}

@@ -1,0 +1,257 @@
+body {
+  background: rgba(57, 106, 252, 1);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.satu {
+  border-radius: 0px 40px 40px 0px;
+  width: 100%;
+  height: 1024px;
+  background-color: white;
+  padding: auto 10px 10px auto;
+}
+
+.login {
+  position: absolute;
+  width: 562px;
+  height: 772px;
+  top: 50px;
+  left: 70px;
+  /* background: rgba(255, 255, 255, 1); */
+  /* background-color: aquamarine; */
+}
+
+.wallet {
+  width: 562px;
+  height: 32px;
+}
+
+.wallet img {
+  width: 32px;
+  height: 32px;
+  margin-top: 20px;
+}
+
+.wallet p {
+  position: absolute;
+  width: 82px;
+  height: 27px;
+  top: -10px;
+  left: 47px;
+  font-family: Nunito sans;
+  font-size: 20px;
+  line-height: 27.28px;
+  color: rgba(41, 72, 255, 1);
+  margin-top: 38px;
+}
+
+.start {
+  width: 562px;
+  height: 111px;
+}
+
+.start p {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 500px;
+  line-height: 36.57px;
+}
+
+.tranfering {
+  width: 562px;
+  height: 81px;
+}
+
+.tranfering p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 26.62px;
+  color: rgba(79, 86, 101, 1);
+}
+
+.btn-google {
+  width: 562px;
+  height: 51px;
+  border-radius: 100px;
+  border: 1px solid rgba(232, 232, 232, 1);
+  padding: 10px;
+  position: relative;
+  margin-top: 20px;
+  font-family: Montserrat;
+  font-size: 18px;
+}
+
+.btn-google:hover {
+  background-color: rgba(57, 106, 252, 1);
+  color: white;
+}
+
+.btn-google img {
+  width: 24px;
+  height: 24px;
+  padding-right: 10px;
+  position: absolute;
+  top: 10px;
+  left: 150px;
+}
+
+.btn-facebook {
+  width: 562px;
+  height: 51px;
+  border-radius: 100px;
+  border: 1px solid rgba(232, 232, 232, 1);
+  padding: 10px;
+  position: relative;
+  margin-top: 20px;
+  font-family: Montserrat;
+  font-size: 18px;
+}
+
+.btn-facebook:hover {
+  background-color: rgba(57, 106, 252, 1);
+  color: white;
+}
+
+.btn-facebook img {
+  width: 24px;
+  height: 24px;
+  padding-right: 10px;
+  position: absolute;
+  top: 10px;
+  left: 140px;
+}
+
+.line {
+  width: 562px;
+  height: 15px;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.line1 {
+  width: 224.8px;
+  position: absolute;
+  top: 8px;
+  border: 0.5px solid rgba(222, 222, 222, 1);
+}
+
+.or {
+  width: 15px;
+  height: 15px;
+  left: 270px;
+  position: absolute;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400px;
+  line-height: 14.63px;
+}
+
+.line2 {
+  width: 224.8px;
+  position: absolute;
+  top: 8px;
+  left: 330px;
+  border: 0.5px solid rgba(222, 222, 222, 1);
+}
+
+.form-input {
+  width: 562px;
+  height: 77px;
+  position: relative;
+  margin-top: 40px;
+}
+
+.form-input label {
+  width: 562px;
+  height: 20px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500px;
+  line-height: 19.5px;
+  color: rgba(11, 19, 42, 1);
+  position: absolute;
+  margin-top: -25px;
+}
+
+.input {
+  position: relative;
+  width: 530px;
+  height: 44px;
+  border: 1px solid rgba(222, 222, 222, 1);
+  border-radius: 8px;
+  padding: 14px 13px 14px 13px;
+  background: rgba(252, 253, 254, 1);
+}
+
+.form-input img {
+  width: 16px;
+  height: 12px;
+  position: absolute;
+  top: 28px;
+  left: 20px;
+  color: rgba(79, 86, 101, 1);
+}
+
+.input-email {
+  width: 480px;
+  height: 15px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400px;
+  line-height: 14.63px;
+  color: rgba(79, 86, 101, 1);
+  position: absolute;
+  left: 55px;
+  top: 25px;
+  border: none;
+}
+
+.form-input img.password {
+  width: 16px;
+  height: 16px;
+}
+
+.btn-register {
+  margin-top: 10px;
+  width: 562px;
+  height: 50px;
+  border-radius: 6px;
+  padding: 10px;
+  background: rgba(41, 72, 255, 1);
+  border: none;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.have {
+  width: 562px;
+  height: 20px;
+  position: relative;
+  top: 0px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400px;
+  line-height: 15px;
+  text-align: center;
+  color: rgba(79, 86, 101, 1);
+}
+
+.container-dua {
+  width: 730px;
+  height: 621px;
+  /* border: 5px solid red; */
+  position: absolute;
+  right: 0%;
+  top: 201px;
+}
